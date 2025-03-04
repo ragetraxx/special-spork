@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Horoscope</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Horoscope Logo" class="logo">
+        <h1>Daily Horoscope</h1>
+        <select id="zodiac-sign">
+            <option value="">Select Your Sign</option>
+            <option value="aries">Aries</option>
+            <option value="taurus">Taurus</option>
+            <option value="gemini">Gemini</option>
+            <option value="cancer">Cancer</option>
+            <option value="leo">Leo</option>
+            <option value="virgo">Virgo</option>
+            <option value="libra">Libra</option>
+            <option value="scorpio">Scorpio</option>
+            <option value="sagittarius">Sagittarius</option>
+            <option value="capricorn">Capricorn</option>
+            <option value="aquarius">Aquarius</option>
+            <option value="pisces">Pisces</option>
+        </select>
+        <button onclick="fetchHoroscope()">Get Horoscope</button>
+        <p id="horoscope-text"></p>
+        <audio id="horoscope-sound" src="smile.mp3"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
