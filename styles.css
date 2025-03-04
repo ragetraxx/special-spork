@@ -6,6 +6,7 @@ body {
     background-size: cover;
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 /* Container */
@@ -14,9 +15,10 @@ body {
     max-width: 400px;
     margin: 10vh auto;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    background: rgba(20, 15, 100, 0.85); /* Darker Blue Transparent */
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    color: #f1f1f1; /* Soft White Text */
 }
 
 /* Logo */
@@ -30,7 +32,7 @@ body {
 /* Headings */
 h1 {
     font-size: 1.8rem;
-    color: #333;
+    color: #FFD700; /* Gold for contrast */
     margin-bottom: 10px;
 }
 
@@ -41,25 +43,27 @@ select, button {
     font-size: 1rem;
     margin-top: 10px;
     border-radius: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #FFD700;
     cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
 }
 
 button {
-    background-color: #007bff;
-    color: white;
+    background-color: #FFD700;
+    color: #0B084B;
     font-weight: bold;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #FFC107;
 }
 
 /* Horoscope Text */
 p {
     margin-top: 20px;
     font-size: 1.2rem;
-    color: #555;
+    color: #f1f1f1;
 }
 
 /* Responsive Design */
